@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2025-06-21 19:43:36",
+        "raw_text": "hello",
+        "normalized_text": "HELLO"
+    },
+    {
+        "timestamp": "2025-06-21 19:43:40",
+        "raw_text": "in 7:00",
+        "normalized_text": "7:00 AM"
+    },
+    {
+        "timestamp": "2025-06-21 19:44:15",
+        "raw_text": "aaj main Subah 7:00 so",
+        "normalized_text": "Today I woke up at 7:00 am"
+    },
+    {
+        "timestamp": "2025-06-21 19:44:27",
+        "raw_text": "Aaj 21 June",
+        "normalized_text": "Today is June 21st."
+    },
+    {
+        "timestamp": "2025-06-21 19:44:42",
+        "raw_text": "environment Kaise",
+        "normalized_text": "How is the weather?"
+    },
+    {
+        "timestamp": "2025-06-21 19:44:51",
+        "raw_text": "ki Jab Ham Kono file",
+        "normalized_text": "What file are we talking about?"
+    }
+]

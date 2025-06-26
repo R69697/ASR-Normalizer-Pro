@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASR Normalizer Pro</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <button class="new-chat-btn">
+          <i class="fas fa-plus"></i> New chat
+        </button>
+        <button class="sidebar-toggle">
+          <i class="fas fa-outdent"></i>
+        </button>
+      </div>
+      <div class="chat-history">
+        <div class="history-item active">
+          <i class="fas fa-message"></i>
+          <span>Today's conversation</span>
+        </div>
+        <div class="history-item">
+          <i class="fas fa-message"></i>
+          <span>Number conversions</span>
+        </div>
+      </div>
+      <div class="sidebar-footer">
+        <div class="user-profile">
+          <div class="avatar">U</div>
+          <span>User</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="chat-container">
+        <div id="chatbox">
+          <div class="welcome-section">
+            <h1>ASR Normalizer Pro</h1>
+            <div class="capabilities-grid">
+              <div class="capability-card">
+                <div class="card-icon"><i class="fas fa-calendar-day"></i></div>
+                <h3>Date Conversion</h3>
+                <p>"twenty third june" → "23rd June"</p>
+              </div>
+              <div class="capability-card">
+                <div class="card-icon"><i class="fas fa-calculator"></i></div>
+                <h3>Number Formatting</h3>
+                <p>"three point one four" → "3.14"</p>
+              </div>
+              <div class="capability-card">
+                <div class="card-icon"><i class="fas fa-money-bill-wave"></i></div>
+                <h3>Currency Handling</h3>
+                <p>"one hundred dollars" → "$100"</p>
+              </div>
+              <div class="capability-card">
+                <div class="card-icon"><i class="fas fa-clock"></i></div>
+                <h3>Time Conversion</h3>
+                <p>"three thirty pm" → "3:30 PM"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <div class="input-wrapper">
+            <button class="input-btn" id="attachBtn">
+              <i class="fas fa-paperclip"></i>
+            </button>
+            <input type="text" id="userInput" placeholder="Message ASR Normalizer..." autocomplete="off">
+            <button class="input-btn" id="voiceBtn">
+              <i class="fas fa-microphone"></i>
+            </button>
+            <button class="input-btn send-btn" id="sendBtn">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+          <div class="disclaimer">
+            <p>ASR Normalizer Pro may produce inaccurate information. Verify important conversions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
