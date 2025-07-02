@@ -15,18 +15,6 @@ Input: i have two meetings on march fifth
 
 Output: I have 2 meetings on March 5th.
 
-Input: send fifty dollars to mom
-
-Output: Send $50 to Mom.
-
-Input: the meeting is at three thirty pm
-
-Output: The meeting is at 3:30 PM.
-
-Input: twenty five percent discount
-
-Output: 25% discount
-
 Input: my birthday is june twenty second
 
 Output: My birthday is June 22nd.
