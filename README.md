@@ -8,24 +8,31 @@ This project implements an intelligent **Inverse Text Normalization (ITN)** syst
 
 ASR systems typically output text in a **spoken format**, lacking numerical formatting, punctuation, or semantic structure. For example:
 Input: today i wake up seven am
+
 Output: Today I woke up at 7 AM.
 
 Input: i have two meetings on march fifth
+
 Output: I have 2 meetings on March 5th.
 
 Input: send fifty dollars to mom
+
 Output: Send $50 to Mom.
 
 Input: the meeting is at three thirty pm
+
 Output: The meeting is at 3:30 PM.
 
 Input: twenty five percent discount
+
 Output: 25% discount
 
 Input: my birthday is june twenty second
+
 Output: My birthday is June 22nd.
 
 Input: he paid one thousand five hundred
+
 Output: He paid $1,500.
 
 
